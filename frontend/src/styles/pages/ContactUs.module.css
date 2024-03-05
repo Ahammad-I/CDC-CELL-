@@ -1,0 +1,15 @@
+.members {
+  font-size: 1.8rem;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  margin: 1rem auto;
+  width: 20rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

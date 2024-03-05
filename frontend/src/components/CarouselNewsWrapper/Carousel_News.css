@@ -1,0 +1,30 @@
+@media (min-width: 1100px) {
+  .container-Overview {
+    display: flex;
+    justify-content: space-around;
+  }
+  .box-1 {
+    width: inherit;
+    flex: 7;
+    margin-top: 20px;
+  }
+  .box-2 {
+    flex: 3;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .container-Overview {
+    justify-content: center;
+  }
+  .box-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .box-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}

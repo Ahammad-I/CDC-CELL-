@@ -1,0 +1,26 @@
+.heading {
+  font-size: 1.8rem;
+  color: white;
+  background: #012970;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0rem 2rem 0rem;
+  padding: 1rem;
+}
+
+.members {
+  font-size: 1.65rem;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  margin: 1rem auto;
+  width: 20rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,11 @@
+.heading {
+  font-size: 1.8rem;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0rem 2rem 0rem;
+  padding: 1rem;
+  background-color: #012970;
+}

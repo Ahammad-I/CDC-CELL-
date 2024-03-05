@@ -1,0 +1,102 @@
+.contactCard {
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 0.35rem;
+  margin: auto;
+  background-color: #fff;
+}
+
+.cardHeader {
+  padding: 0.5rem;
+  background-color: #012970;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  border-top-left-radius: 0.35rem;
+  border-top-right-radius: 0.35rem;
+}
+
+.designation {
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: center;
+  margin: 0.2rem 0;
+}
+
+.subDesignation {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0.2rem 0;
+}
+
+.profileImage {
+  margin: 1rem 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 0.3rem;
+}
+
+.cardContent {
+  padding: 0.2rem;
+  color: #012970;
+  text-align: center;
+  border-bottom-left-radius: 0.35rem;
+  border-bottom-right-radius: 0.35rem;
+}
+
+.footer {
+  padding: 0.7rem;
+  margin: 0rem auto;
+  width: 17.5rem;
+}
+
+.email {
+  font-size: 1rem;
+  color: #383cc1;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0.5rem;
+}
+
+.email:hover {
+  color: #012970;
+}
+
+.phone {
+  font-size: 1rem;
+  color: #383cc1;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.phone:hover {
+  color: #012970;
+}
+
+.social {
+  height: 2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.5rem 0 0 0;
+}
+
+.github {
+  color: black;
+  margin: 0 0.5rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  text-decoration: none;
+}
+
+.linkedin {
+  color: #0072b1;
+  margin: 0 0.5rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  text-decoration: none;
+}

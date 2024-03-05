@@ -1,0 +1,16 @@
+.email {
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.1rem 0;
+}
+
+.phone {
+  font-size: 1.2rem;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.1rem 0;
+}

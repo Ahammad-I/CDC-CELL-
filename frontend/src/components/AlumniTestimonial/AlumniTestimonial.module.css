@@ -1,0 +1,72 @@
+.root {
+  max-width: 800px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.cardtextcontent {
+  height: 270px;
+  padding: 16px;
+  padding-inline: 25px;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.cardsocial {
+  justify-content: center;
+  height: 64px;
+}
+@media screen and (max-width: 1100px) {
+  .root {
+    height: auto;
+  }
+  .cardtextcontent {
+    height: auto;
+  }
+}
+
+.media {
+  height: 150px;
+}
+.profile {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  display: flex;
+}
+.root .avatar {
+  height: 150px;
+  width: 150px;
+  margin-top: -80px;
+  border-radius: 50%;
+}
+.root .main_content {
+  font-size: 1rem;
+  color: black;
+  min-height: 150px;
+}
+.name_container {
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: black;
+}
+.name_container .name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: black;
+}
+.name_container .company_name {
+  font-size: 1.1rem;
+  color: #6d6d6d;
+  margin-bottom: 5px;
+}
